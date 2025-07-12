@@ -1,0 +1,10 @@
+Statements: to make decisions
+ 1. If-Else Statement
+    if(condition)
+    {
+      this code will execute only if condition is true
+    }
+    else
+    {
+       this code will execute only if condition is false
+    }
