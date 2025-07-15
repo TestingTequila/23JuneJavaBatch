@@ -1,0 +1,8 @@
+1. if else : To make single decision
+2. if else if: To make multiple decisions
+3. switch statement: To make multiple decisions but is faster than if else if
+
+Drawback of switch statement:
+cannot be used with range values >, <>=, <=
+doesn't support few data types as : long, float, double, boolean
+after every condition use break keyword else this will give ambiguous result...

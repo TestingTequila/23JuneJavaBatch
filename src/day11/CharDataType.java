@@ -1,4 +1,4 @@
-package day1;
+package day11;
 
 public class CharDataType
 {
