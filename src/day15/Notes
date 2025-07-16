@@ -1,0 +1,26 @@
+Loops: whenever we have to perform some repetitive tasks
+-while loop
+-for loop
+-advanced for loop
+
+Syntax of while Loop:
+
+=======While loop======================
+
+define a variable/ existing variable
+while(condition over the variable)
+{
+  this code will execute only if condition is true
+  I/D;
+}
+
+
+=======for loop======================
+for(define a variable/ existing variable;condition over the variable;I/D)
+{
+  this code will execute only if condition is true
+}
+
+==================================while loop use cases=========================
+1. When number of iterations is not fixed
+2. Infinite page loading
