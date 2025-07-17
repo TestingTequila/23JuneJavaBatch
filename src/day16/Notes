@@ -1,0 +1,8 @@
+arrayName.length ==> This will give you the array size
+
+syntax of advanced for loop
+
+for(dataTypeOfArray aliasName:nameOfArray)
+{
+  action
+}

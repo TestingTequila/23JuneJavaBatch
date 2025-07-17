@@ -20,3 +20,7 @@ for(define a variable/ existing variable;condition over the variable;I/D)
 {
   this code will execute only if condition is true
 }
+
+==================================while loop use cases=========================
+1. When number of iterations is not fixed
+2. Ex: Infinite page loading

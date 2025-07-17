@@ -23,4 +23,4 @@ for(define a variable/ existing variable;condition over the variable;I/D)
 
 ==================================while loop use cases=========================
 1. When number of iterations is not fixed
-2. Infinite page loading
+2. Ex: Infinite page loading
