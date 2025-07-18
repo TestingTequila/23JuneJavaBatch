@@ -36,5 +36,7 @@ public class VariableConcepts {
 
         //1 byte = 8 bits
 
+        int x1= 7;
+
     }
 }
