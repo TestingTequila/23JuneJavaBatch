@@ -1,0 +1,20 @@
+1. What is a class? Its a template
+2. What is an Object: Copy or copies of the template
+3. How is class and Object related to each other:
+   NameOfClassWhoseCopyYouWantToCreate nameYouWantToGiveToYourCopy= new NameOfClassWhoseCopyYouWantToCreate();
+
+4. Class w.r.t to memory management
+5. Garbage Collector
+
+
+Jason, Kerrie, Ben, Megan, John
+
+
+1. Identify the file whose copy you want to create
+2. Select the file by clinking on it
+3. Right click on the file
+4. Select Copy option
+5. GO TO THE LOCATION WHERE YOU WANT TO CREATE THE COPY
+6. Right click on the location and select Paste option
+7. Once the file is pasted, select and right click on it
+8. Select rename option and rename the file
