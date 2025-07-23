@@ -1,0 +1,8 @@
+Methods are the reason why we created variables in the first place
+Methods: Are actions performed over class variables
+
+
+accessModifier[public/private/protected] returnType[void/dataTypes] methodName(can/t parameters)
+{
+  action over class variables
+}

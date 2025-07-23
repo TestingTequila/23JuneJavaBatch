@@ -1,4 +1,4 @@
-package day1;
+package day11;
 
 public class VariableConcepts {
     public static void main(String[] args) {
