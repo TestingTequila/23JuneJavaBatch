@@ -31,3 +31,8 @@ public class CalculationsWithLocalVariable {
     }
 
 }
+
+
+//global variable - share this value with multiple methods of the same class
+//parameter       - don't want to share the value, belongs to the method only
+//local variable  - we cannot share this and this will always hold fix value
