@@ -1,0 +1,42 @@
+OOPs: Object Oriented Programming
+
+PolyMorphism: Poly(Many) + Morphism(Forms)
+  Methods with same name can exist in many forms
+
+Method Overloading:
+   In a class we can have two or more methods with the same name, provided that,
+   the signature of methods are different
+
+   How can we make signature different:
+      by changing the data type
+      by changing the order of data type
+      by changing the count of parameters
+
+      ---------------------------------------------------------
+         public void addition(double a, int b) //double, int
+          {
+              double sum =a+b;
+              System.out.println("Addition: " + sum);
+          }
+
+         public void addition(double c, int d) // double, int
+          {
+               double sum =a+b;
+               System.out.println("Addition: " + sum);
+          }
+
+         public void addition1(int c, int d) // int, int
+          {
+               double sum =a+b;
+               System.out.println("Addition: " + sum);
+          }
+
+          public void addition2(int c, int d) // int, int
+           {
+               double sum =a+b;
+               System.out.println("Addition: " + sum);
+           }
+
+Method overloading happens within the same class
+Method overloading is also known as static polymorphism or Compile Time Polymorphism
+
