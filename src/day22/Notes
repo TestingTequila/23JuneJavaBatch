@@ -1,0 +1,74 @@
+Selenium = Programming Language [Java] + Element Locators [HTML]
+
+Element Locators is a way to get the address of a web element
+
+Xpath
+CSS locators
+id
+name
+class
+link text
+partial Link text
+tagName
+
+HTML: Hyper Text Markup Language
+
+<tagName attribute1 = "value1" attribute2 = "value2"  attribute3 = "value3"................. attributeN = "valueN"/>
+<tagName attribute1 = "value1" attribute2 = "value2"  attribute3 = "value3"................. attributeN = "valueN"></tagName>
+<tagName attribute1 = "value1" attribute2 = "value2"  attribute3 = "value3"................. attributeN = "valueN">innerText</tagName>
+
+
+<input type="text" name="email" value="" placeholder="E-Mail" id="input-email" class="form-control">
+
+tagName = input
+countOfAttributes = 6
+which attribute has the value as input-email = id
+what is the value of class attribute =form-control
+inner text ?
+
+
+
+<input type="password" name="password" value="" placeholder="Password" id="input-password" class="form-control">
+
+tagName = input
+countOfAttributes = 6
+placeholder =Password
+form-control = class
+
+<input type="submit" value="Login" class="btn btn-primary">
+
+tagName = input
+countOfAttributes = 3
+submit => type
+value = Login
+
+<a href="https://janbaskdemo.com/index.php?route=account/forgotten">Forgotten Password</a>
+
+tagName = a
+countOfAttributes = 1
+href = https://janbaskdemo.com/index.php?route=account/forgotten
+inner text = Yes
+value of inner  text  = Forgotten Password
+
+<a href="https://janbaskdemo.com/index.php?route=account/register" class="btn btn-primary">Continue</a>
+
+tagName = a
+countOfAttributes = 2
+class attribute = btn btn-primary
+
+https://janbaskdemo.com/index.php?route=account/register" = href
+
+innerText = Yes
+Continue
+
+
+<a class="list-group-item" href="http://janbaskdemo.com/index.php?route=information/information&amp;information_id=4">About Us </a>
+
+tagName = a
+countOfAttributes =2
+class =list-group-item
+list-group-item = class
+innerTextAbout Us
+
+
+

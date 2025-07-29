@@ -1,0 +1,6 @@
+Common property value should be static and assign value to it in the template(class) itself
+Static does not belong to Object and as a result cannot be called using Object Name
+Static belongs to CMA, which in turn is within the template, so indirectly static belongs to the class and
+hence should be called using class name to which it belongs
+If its static --> Call it by class name
+If its not static ---> Call it by object name
