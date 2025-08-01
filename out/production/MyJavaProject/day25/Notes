@@ -1,0 +1,31 @@
+// Oops
+// Encapsulation
+    //Data Hiding
+
+// Polymorphism
+    //method overloading ---> Done
+    //method overriding
+
+// Inheritance
+    //Abstraction
+    //Interface
+
+=============================================================================================
+Encapsulation involves bundling variables and the methods into a single unit, known as a class.
+=> Whenever we are creating a variable or a method please ensure you are doing this within the class
+
+   In encapsulation, the variables of a class should be made private
+   and can be accessed only through the methods of their current class.
+   Therefore, it is also known as data hiding.
+
+   //create private variables and access them through setter and getter methods
+
+   Class A: public variable, public method
+   Class B: private variable, private method ----
+   Class C: private variable, public method  <----
+   Class D: public variable, private method
+
+//1. private variable, public method[setter/getter]
+//2. constructors, public method[getter]
+//3. constructor, setter, public method getter
+//4.

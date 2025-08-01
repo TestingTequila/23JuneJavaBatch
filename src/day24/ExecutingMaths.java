@@ -7,3 +7,5 @@ public class ExecutingMaths {
         Maths m3 = new Maths("Jason", 24);//String & int parametrized constructor
     }
 }
+
+
