@@ -1,0 +1,60 @@
+Xpath: Its a technique to generate address or any web element on a web page
+
+Absolute Xpath: /html/body/div[2]/div/div/div/div[2]/div/form/div/input
+                /html/body/div[2]/div/div/div/div[2]/div/form/div/input
+
+Relative Xpath:
+   //tagName[@attributeName='value']
+   //tagName[text()='innerText']
+   //tagName[contains(@attribute/text(), 'attributeValue/innerText')]
+
+
+   <input type="text" name="email" value="" placeholder="E-Mail" id="input-email" class="form-control">
+
+      //input[@id='input-email']                             ---> Xpath of Email Text Box
+      //input[@name='email']                                 ---> Xpath of Email Text Box
+      //input[@placeholder='E-Mail' and @id='input-email']   ---> Xpath of Email Text Box
+      //input[contains(@id, 'input-email')]                  ---> Xpath of Email Text Box
+      //input[contains(@id, 'input-email')]                  ---> Xpath of Email Text Box
+
+
+   <a href="https://janbaskdemo.com/index.php?route=account/forgotten">Forgotten Password</a>
+
+         //a[@href='https://janbaskdemo.com/index.php?route=account/forgotten']
+         //a[text()='Forgotten Password']
+         //a[contains(@href, 'https://janbaskdemo.com/index.php?route=account/forgotten')]
+         //a[contains(text(), 'Forgotten Password')]
+
+   <input type="submit" value="Login" class="btn btn-primary">
+            //input[@type='submit']
+            //input[contains(@value, 'Login')]
+
+
+   <a role="button" class="_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy" href="/r.php?entry_point=login" ajaxify="" id="u_0_0_gC" data-testid="open-registration-form-button">Create new account</a>
+               //a[@role='button' and @data-testid='open-registration-form-button']
+               //a[text()='Create new account']
+               //a[contains(@data-testid, 'open-registration-form-button')]
+               //a[contains(text(), 'Create new account')]
+
+
+
+   <select name="category_id" class="form-control-select hasCustomSelect" style="appearance: menulist-button; width: 223px; position: absolute; opacity: 0; height: 40px; font-size: 12px;">
+                //select[@name='category_id']
+                //select[contains(@name, 'category_id')]
+
+   Case2: Traversing from parent node to child Node
+
+          for direct child to a tagName/node we use single forward slash /
+          for indirect child to a tagName/node we use double forward slash //
+
+   case3: Traversing from Child to Parent
+           childXpath/..
+           OR
+           childXpath/parent::parentTagName
+
+   case4: Traversing from siblings to siblings
+
+   case5: Indexing in XPath
+
+
+          //a[@_name='Emma Emma']/parent::td/preceding-sibling::td/input
