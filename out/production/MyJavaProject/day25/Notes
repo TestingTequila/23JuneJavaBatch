@@ -28,4 +28,6 @@ Encapsulation involves bundling variables and the methods into a single unit, kn
 //1. private variable, public method[setter/getter]
 //2. constructors, public method[getter]
 //3. constructor, setter, public method getter
-//4.
+//4. private method within public method
+
+// For setting the value of a private variable we use setter method and Constructors

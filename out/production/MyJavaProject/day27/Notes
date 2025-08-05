@@ -1,0 +1,10 @@
+1. 'this' keyword is used to differentiate b/w global variable and parameter with the same name.
+   Using this keyword, we can call the global variables of the class
+
+2. Calling one constructor inside of other constructor using 'this'
+   You can call only one constructor inside of other Constructor
+   => Constructor calling should be the first statement inside of other Constructor
+
+3. Calling one method inside of other method
+
+4. Builder pattern
