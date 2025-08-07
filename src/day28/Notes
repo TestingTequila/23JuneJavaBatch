@@ -1,0 +1,17 @@
+OOPs
+Encapsulation
+   -Data Hiding
+
+Polymorphism
+   -method Overloading
+   -method overriding
+
+Inheritance
+    -Abstraction
+    -Interface
+
+    Multiple inheritance isn't allowed among classes in Java
+
+    Difference b/w a normal class and Abstract Class ?
+    Normal Class ==> holds only Concrete methods
+    Abstract Class ==> holds both concrete and Abstract Methods

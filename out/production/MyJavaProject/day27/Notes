@@ -8,3 +8,19 @@
 3. Calling one method inside of other method
 
 4. Builder pattern
+
+
+Ways to update an existing Object:
+1. through setter method
+2. Through Call By Reference
+
+Scenario 1: setting the value of private variable using Constructor
+            updating it using setter method or updating it using Call By Reference
+
+
+Scenario 2: setting the value of private variable using setter method
+            updating it using Call By Reference
+
+            Difference b/w setter and Call by reference
+            => setter method is used to update one property at a time of the same object
+            => Call By Reference can be used to update multiple properties of the same object
