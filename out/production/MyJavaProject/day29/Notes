@@ -1,0 +1,21 @@
+Class - A class has only concrete methods
+Abstract Class - An abstract class can hold both  concrete and Abstract methods
+Interface - An Interface will hold only and only Abstract Methods
+
+
+We cannot create Object of an Abstract Class coz if this was allowed, using abstract class reference we will
+be able to call the abstract method, which is not implemented within abstract class and as a result JVM will not know
+what to do with it
+
+
+We cannot create Object of an Interface coz if this was allowed, using Interface reference we will
+be able to call the abstract methods, which is not implemented within Interface and as a result JVM will not know
+what to do with it
+
+A class Cannot have more than one parent class as having more than one parent will lead to diamond problem
+In simple language, we say, Multiple inheritance isn't allowed among CLASSES in Java
+
+
+
+
+
