@@ -1,0 +1,7 @@
+1. Can we create object of an interface - No
+2. Can we create constructor inside an interface - No
+3. Can we create object of an Abstract Class - No
+4. Can we create constructor inside an Abstract Class - Yes
+5. Can abstract method be final -No
+6. Can abstract method be static -- No
+7. Can abstract method be private -- No

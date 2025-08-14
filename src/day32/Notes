@@ -1,0 +1,25 @@
+1. Can we create object of an interface - No
+2. Can we create constructor inside an interface - No
+3. Can we create object of an Abstract Class - No
+4. Can we create constructor inside an Abstract Class - Yes
+5. Can abstract method be final -No
+6. Can abstract method be static -- No
+7. Can abstract method be private -- No
+8. variables value cannot be overridden
+===================================================
+In a P-C relationship
+  -variables can be inherited but can't be overridden
+  -static method can be inherited but can't be overridden
+  -final method can be inherited but can't be overridden
+  => The difference b/w static and final is in this context is: We call static variable/method using class name
+     and final variable/method using ClassName
+
+9. variables in an interface are both static and final by default, since they are final, you have to assign value to
+   them at the time of creation and static because you cannot create object of an interface, so the only
+   option left is to call them using interface name and that's possible only if variable is static.
+
+10. An interface can have static method with body or a method with 'default' keyword
+    default method of an interface can be both inherited and overridden, but to override
+    a default method from interface into its child class, we must change the access modifier
+    of method from default to public in the child class
+
