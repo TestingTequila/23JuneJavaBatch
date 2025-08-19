@@ -21,6 +21,5 @@ public class Execution {
         A.m2(); //Parent Class A static method
         B.m2();
         a1.m3();
-
     }
 }

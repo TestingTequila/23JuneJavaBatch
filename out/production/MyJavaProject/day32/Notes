@@ -19,3 +19,7 @@ In a P-C relationship
    option left is to call them using interface name and that's possible only if variable is static.
 
 10. An interface can have static method with body or a method with 'default' keyword
+    default method of an interface can be both inherited and overridden, but to override
+    a default method from interface into its child class, we must change the access modifier
+    of method from default to public in the child class
+

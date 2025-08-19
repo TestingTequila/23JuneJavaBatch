@@ -7,15 +7,15 @@ public class A {
     static final int age = 34;
 
     //Can be inherited and overridden
-    public void m1()
+    public String m1()
     {
-        System.out.println("Class A method....");
+        return "Class A method....";
     }
 
     //Can be inherited but not overridden
-    public static void m2()
+    public static String m2()
     {
-        System.out.println("Parent Class A static method");
+        return "Parent Class A static method";
     }
 
     //Can be inherited but not overridden
@@ -32,4 +32,5 @@ public class A {
     //public final abstract  void m1(); cannot make abstract method final
 
     //private abstract  void m1(); cannot make abstract method private
+
 }

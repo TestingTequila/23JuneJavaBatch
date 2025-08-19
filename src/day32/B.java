@@ -4,13 +4,13 @@ public class B extends A {
     int price = 200;
 
     @Override
-    public void m1()
+    public String m1()
     {
-        System.out.println("Class B overridden method");
+        return "Class B overridden method";
     }
-    public static void m2()
+    public static String m2()
     {
-        System.out.println("Child Class B static method");
+        return "Child Class B static method";
     }
 
 //    public final void m3()

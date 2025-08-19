@@ -1,0 +1,5 @@
+1. Can we create Object of an Abstract Class - No
+
+2. Child class is responsible for calling parent class constructors
+    default constructor is called automatically the moment you create object of the class
+    To call parametrized constructor, we have to use this keyword
