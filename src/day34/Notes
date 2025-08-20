@@ -1,0 +1,7 @@
+Stack Memory has two important jobs to perform:
+1. To store the reference variable of an application
+2. To define the execution order of methods
+3. Stack overflow Error occurs if there is method loop
+4. Allocation and de-allocation happens within the stack memory
+
+String Manipulation
