@@ -20,6 +20,13 @@ public class StackOverflowConcept
 
     public static void main(String[] args) {
         StackOverflowConcept soc = new StackOverflowConcept();
-        soc.m1();
+        try {
+            soc.m1();
+        }
+        catch (Error e)
+        {
+            e.printStackTrace();
+        }
+        System.out.println("Will This execute as i am handling the error....");
     }
 }
